@@ -1,0 +1,14 @@
+// Real-time Data Processing Workflow
+digraph {
+	A [label="Data Ingestion"]
+	B [label="Data Cleaning"]
+	C [label="Feature Extraction"]
+	D [label="Model Prediction"]
+	E [label="Decision Making"]
+	F [label="Trade Execution"]
+	A -> B [label=Ingestion]
+	B -> C [label=Cleaning]
+	C -> D [label="Feature Extraction"]
+	D -> E [label=Prediction]
+	E -> F [label=Decision]
+}
